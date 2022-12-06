@@ -11,4 +11,10 @@ $(function(){
         slidesPerView: 1,
         spaceBetween: 10,
     })
+
+    // footer
+    $("footer ul li").click(function(){
+        $(this).toggleClass("active");
+        $(this).siblings().removeClass("active");
+    })
 })

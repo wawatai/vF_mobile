@@ -379,6 +379,31 @@ html .homeCenter .gameType {
   width: 100%;
   height: 26vw;
 }
+html .homeCenter .gameType div {
+  padding: 2vw;
+}
+html .homeCenter .gameType div p {
+  text-align: center;
+}
+html .homeCenter .gameType div p.bigTitle {
+  color: #ffffff;
+  font-size: 3.6vw;
+  margin-bottom: 1vw;
+}
+html .homeCenter .gameType div p.smallTitle {
+  color: #ffb21d;
+  font-size: 1vw;
+  letter-spacing: 1vw;
+}
+html .homeCenter .gameType:nth-child(odd) {
+  padding: 8vw 0vw 8vw 20vw;
+}
+html .homeCenter .gameType:nth-child(even) {
+  padding: 8vw 20vw 8vw 0vw;
+}
+html .homeCenter .gameType:nth-child(even) .smallTitle {
+  margin-left: 1vw;
+}
 html footer {
   width: 100%;
   height: 18vw;
